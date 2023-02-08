@@ -1,0 +1,110 @@
+img {
+    display: flex;
+    border-radius: 60%;
+    border: 1px solid #ddd;
+    padding: 5px;
+}
+
+.link {
+    display: flex;
+    justify-content: space-evenly;
+    border-radius: 0%;
+    border-top: 2px solid purple;
+    height: 30px;
+    border-bottom: 1px solid lightgray;
+    padding: 10px;
+    text-decoration: none;
+    text-decoration-color: black;
+}
+
+.image {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 1px #ddd;
+    padding: 10px;
+    width: 500px;
+    text-align: center;
+}
+
+.AB {
+    display: flex;
+    flex-direction: column;
+    border: 1px #ddd;
+    padding: 20px;
+    border-left: 1px solid lightgray ;
+}
+
+.sectionA {
+    display: flex;
+    padding: 10px;
+
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    border: 1px #ddd;
+    padding: 20px;
+    border-top: lightgray solid 1px;
+    align-items: baseline;
+}
+
+.other {
+    justify-content: space-evenly;
+    padding: 5px;
+    text-decoration: inherit;
+    color: black;
+    text-decoration-color: black;
+
+}
+
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+.email {
+    color: purple;
+}
+
+h2 {
+    color: grey;
+    font-weight: normal;
+}
+
+h1 {
+    color: grey;
+    font-weight: normal;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.current {
+    color: purple;
+    justify-content: space-between;
+    padding: 5px;
+    text-decoration: inherit;
+    justify-self: center;
+}
+
+.here {
+    color: purple;
+}
+
+@media only screen and (max-width: 600px){
+    .sectionA {
+        flex-direction: column;
+    }
+
+    .container{
+        border-radius: 25px;
+        height: 10px;
+        width: 50%;
+        background-color: #ddd
+    }
+}

@@ -1,0 +1,20 @@
+.container{
+    border-radius: 25px;
+    height: 10px;
+    width: 300%;
+    background-color: #ddd
+}
+
+.skills{
+    text-align: right;
+    color: gray;
+    padding-top: 4%;
+    padding-bottom: 0%;
+}
+
+.html {border-radius: 25px; width:100%; background-color: rgb(0, 136, 255)}
+.css {border-radius: 25px; width:85%; background-color: rgb(0, 136, 255)}
+.java {border-radius: 25px; width:80%; background-color: rgb(0, 136, 255)}
+.terraform {border-radius: 25px; width:92%; background-color: rgb(0, 136, 255)} 
+.golang {border-radius: 25px; width:100%; background-color: rgb(0, 136, 255)}
+.aws {border-radius: 25px; width:75%; background-color: rgb(0, 136, 255)}
